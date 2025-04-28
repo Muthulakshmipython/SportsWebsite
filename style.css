@@ -1,0 +1,1727 @@
+
+*
+{
+  color: aliceblue;
+  
+}
+
+
+
+.bg-orange {
+  background-color: #000000!important; 
+}
+
+/* nav bar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  background-color: #000;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link-cart {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.no-hover-bg:hover {
+  background-color: transparent !important;
+  cursor: default;
+}
+
+
+
+.navbar-nav .nav-link:hover {
+  background-color: #2A333C;
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #2A333C;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 160px;
+  left: 50px;
+}
+
+
+ .nav-item
+{
+  padding: 10px;
+} 
+/* banner */
+.hero-section {
+
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.banner .btn-light {
+  background-color: white; 
+  color: #000;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 10px;
+ font-weight: 500;
+  
+}
+
+
+
+/* banner */
+
+.section1
+{
+  background-color: #000;
+}
+
+.sectionheader
+{
+  font-size: 18px;
+  font-weight: bold;
+  color: #81b4ee;
+}
+
+.sectionpara
+{
+  font-size: 2.8rem;
+  font-weight: 600;
+  
+}
+
+
+.right-box p
+{
+  color: #6f6e72 ;
+  font-weight: 600;
+  
+}
+.right-box .custom-btn
+{
+  background-color: #81b4ee; 
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 10px;
+ font-weight: 500;
+}
+
+.section1
+{
+  background-color: #141414;
+}
+
+/* secong section */
+
+.section-title
+{
+  font-size: 45px;
+  color: #000;
+  
+}
+
+.section2para
+{
+  color: #000;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.talk-btn {
+  width: 120px;
+  height: 120px;
+  background-color: #81b4ee; 
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}   
+
+
+.custom-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  height: 300px; 
+  justify-content: space-between;
+}
+
+.align-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-box {
+  
+ 
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.divider
+{
+  color: #000;
+}
+.service-item .number-box
+{
+color: white;
+background-color: #000;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.service-item .number-box2
+{
+color: #000;
+
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+
+.circle-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2A333C; 
+  color: #F5F7F6; 
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.circle-arrow:hover {
+  transform: scale(1.1);
+}
+
+
+.section2para1
+{
+  color: #000;
+ 
+  font-weight: 600;
+  
+}
+.grid-box {
+  border: 1px solid #0c0c0c;
+ 
+  overflow: hidden;
+}
+
+
+.know-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  color: #1c1f23;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.arrow-circle {
+  width: 32px;
+  height: 32px;
+  background-color: #1c1f23;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-circle svg {
+  width: 16px;
+  height: 16px;
+  stroke: #ffffff;
+}
+
+.know-more-link:hover .arrow-circle {
+  background-color: #000;
+}
+
+.grid-img img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.line-represent {
+
+  height: 4px;
+  background: #061e4ecb;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  left:600px;
+  text-justify: end;
+  
+}
+
+
+.line-top-represent {
+ 
+  right: 500px;
+  width: 70%;
+ height: 7px;
+ text-align: end;
+
+}
+.grid-content {
+  position: relative;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.grid-content h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333232;
+}
+
+.grid-content p {
+  color: #333232;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.grid-content a {
+  
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+.gridcontent
+{
+  padding-top: 100px;
+  justify-content: center;
+  color: #141414;
+}
+
+.gridcontent h2
+{
+  color: #000000;
+}
+
+.logo-img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+
+}
+
+.btn-arrow {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  color: #333232;
+}
+
+
+
+.btn-arrow span {
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 767.98px) {
+  .grid-img img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .grid-content {
+    border-top: 1px solid #ccc;
+  }
+}
+
+.section-heading {
+
+
+  padding-left: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #007bff;
+  text-align: center;
+ 
+  
+}
+
+/* best seller */
+.bestsection-title {
+  text-align: center;
+  position: relative;
+  margin: 60px 0;
+}
+
+.bestsection-title h2 {
+  font-size: 3rem;
+  color: #0a1a3f;
+  font-weight: 800;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+ padding: 20px;
+}
+
+.line {
+  position: absolute;
+  height: 4px;
+  background: #1c1f23;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  
+}
+
+.line-top {
+  bottom: 20;
+  left: 0;
+  width: 50%;
+ height: 7px;
+}
+
+.line-bottom {
+  top: 20;
+  right: 0;
+  width: 50%;
+  font-size: 5px;
+  height: 7px;
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .line-top,
+  .line-bottom {
+    height: 5px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .line-top,
+  .line-bottom {
+    width: 60%;
+  }
+}
+/* img grid */
+
+.seller-bottomline
+{
+  text-align: center;
+  color: #08255afb;
+  margin-top:30px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.imggrid-heading
+{
+  color: #333232;
+  font-size: 3rem;
+}
+
+.imggridpara
+{
+  color: #333232;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.image-grid {
+  
+  padding: 15px;
+ 
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  
+
+}
+
+.rate {
+  font-size: 1.3rem;
+  color:#092f53 ;
+  font-weight: bold;
+  margin-top: 10px;
+ 
+}
+
+.rate-rupee {
+  font-size: 1.7rem;
+  color:#092f53 ;
+  font-weight: bold;
+  margin-top: 10px;
+ 
+}
+
+
+@media (max-width: 767.98px) {
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .image-grid {
+    border-right: none;
+    border-radius: 0;
+  }
+}
+
+.lastsection
+{
+  background-color: #81b4ee;
+ 
+ 
+}
+
+
+.last-sectiopara
+{
+  color: #092f53;
+  font-size: 15px;
+  font-weight: 500;
+  
+ 
+ 
+}
+
+.left-side-lastsection
+
+{
+  width: 50%;
+}
+.last-sectionheader
+{
+  color: #092f53;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.bottom-line {
+  width: 90%;
+  height: 8px;
+  background-color: #0d0d0e; 
+ 
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.bottom-line-about {
+  width: 90%;
+  height: 8px;
+  background-color: #020916f3; 
+  border-radius: 2px;
+ 
+}
+
+/* best seller */
+.collobration-title {
+  text-align: center;
+  position: relative;
+  margin: 60px 0;
+}
+
+.collobration-title h2 {
+  font-size: 2.5rem;
+  color: #061e4ecb;
+  font-weight: 700;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+ padding: 20px;
+}
+
+
+
+.line-top-collobration {
+  bottom: 20;
+  left: 0;
+  width: 50%;
+ height: 7px;
+}
+
+.line-bottom-collobration {
+  top: 20;
+  right: 0;
+  width: 50%;
+  font-size: 5px;
+  height: 7px;
+}
+
+@media (max-width: 768px) {
+  .section-title-collobration h2 {
+    font-size: 1.5rem;
+  }
+
+  .line-top-collobration,
+  .line-bottom-collobration {
+    height: 5px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .line-top-collobration,
+  .line-bottom-collobration {
+    width: 60%;
+  }
+}
+.about-contentheader
+{
+  color:#08255afb ;
+}
+.grid-box-about1 {
+  
+ 
+  overflow: hidden;
+}
+
+/* .grid-img-about 
+{
+  text-align: end;
+  
+}  */
+
+.imggridhead
+{
+  color:#08255afb ;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* .about-img
+{
+
+} */
+/* .grid-img-about img {
+
+  
+  
+} */
+.header-bottomline
+{
+  text-align: center;
+  color: #08255afb;
+  margin-top:30px;
+}
+
+.bottom-line-start 
+
+{ 
+
+  width: 50%;
+height: 8px;
+background-color: #0d0d0e; 
+border-radius: 2px;
+
+}
+
+.bottom-line-end 
+{ width: 50%;
+height: 8px;
+background-color: #0d0d0e; 
+border-radius: 2px;
+
+}
+
+.image-stack {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.background-box {
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: #111010; 
+  
+  z-index: 1;
+}
+
+.front-image {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .image-stack {
+    max-width: 100%;
+  }
+
+  .background-box {
+    top: 10px;
+    right: -10px;
+  }
+}
+
+.feature-box
+{
+  height: 80px;
+  width: 80px;
+  background-color: #092f53;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.feature-box h2
+{
+  text-align: center;
+}
+
+.feature-box p
+{
+  text-align: center;
+}
+
+
+.shop-btn {
+  background-color: #092f53;
+  color: #fff;
+  border: none;
+  padding: 20px 24px;
+  border-radius: 2px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #092f53;
+}
+
+
+.footer
+{
+  
+ 
+  background-color: #04183f;
+  
+ 
+  
+}
+
+.footer .fab {
+  font-size: 14px; 
+  color: #b8b4b4; 
+  transition: color 0.3s ease; 
+  line-height: 5px;
+}
+
+
+
+
+
+.footer ul li {
+  line-height: 2;  
+}
+
+.footerlist
+{
+  color: #b6b4b4;
+}
+
+.footerhead
+{
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+.footerpara
+{
+  color: #b6b4b4;
+  font-weight: 500;
+ 
+}
+
+.footertext
+{
+  color: #b6b4b4;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color:#b8b4b4 ; 
+  border-radius: 2px;
+ 
+}
+
+
+.sport-card {
+  position: relative;
+  box-shadow: #333;
+
+
+}
+
+.sport-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+.sport-title {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* about us page banner */
+.feature-banner-about {
+  background: url('./images/sports-equipment-5.png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.feature-content-box-about {
+  background-color: #fff;
+  padding: 20px 10px;
+ position: absolute;
+ 
+  left: 40%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 1000px;
+}
+
+.feature-content-box-top {
+  background-color: #fff;
+  padding: 20px 10px;
+ position: absolute;
+  bottom: -40px;
+  left: 71.7%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1000px;
+}
+.feature-banner-second {
+ 
+  background-size: cover;
+  height: 120px;
+  
+  position: relative;
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  border-bottom: 4px solid #000; 
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-overlay {
+  bottom: -50px; 
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+@media (max-width: 915px) {
+  .feature-banner-second {
+    max-width: 100%;
+    
+    margin-bottom: 150px;
+    
+  }
+}
+@media (max-width: 768px) {
+  .feature-banner-second {
+    max-width: 100%;
+    left: 20%;
+    
+  }
+}
+  @media (max-width: 1023px) {
+    .feature-banner-second {
+      max-width: 100%;
+      left: 20%;
+      
+      
+    }
+
+}
+
+/* about us page */
+/* equipemnt page */
+
+/* section start */
+.section-header 
+{
+  color: #000000;
+
+}
+
+/* section end */
+.equipment-background
+{
+  background-color: #ddd9d9;
+}
+
+/* about us page */
+
+
+
+
+.about-section1head
+{
+  color: #000000;
+  text-align: center;
+}
+
+.about-section1para
+{
+  
+  color: #333232;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: flex-start;
+  
+  
+}
+
+.about-section2para
+
+{
+  
+  color: rgb(16, 175, 238);
+  font-weight: 500;
+  
+}
+
+.headercontentgrid    
+
+{
+  color: #061e4ecb;
+  font-size: 2.5rem;
+
+
+}
+.about-section2para2
+{
+  color: #333232;
+  font-weight: bold;
+}
+
+.about-section2head
+{
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.grid-box-aboutus{
+  border: 1px solid #0c0c0c;
+  overflow: hidden;
+  background-color: #d5dbdba1;
+  border: none;
+}
+
+/* about us page end */
+
+/* football equipment */
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.btn-buy {
+background-color: #81b4ee;
+
+}
+.cart-button {
+  background-color: #007bff;
+  color: white;
+}
+.price-tag {
+  font-weight: bold;
+}
+.free-shipping {
+  color: green;
+  font-weight: bold;
+}
+
+/* football equipment */
+
+.productlist-head
+{
+  color: #000;
+}
+
+.price-tag
+{
+  color: #000000;
+}
+
+/* shopping */
+
+.feature-banner {
+  background: url('./images/sports equipment (12).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.feature-content-box {
+  background-color: #fff;
+  padding: 20px 10px;
+ position: absolute;
+  bottom: -40px;
+  left: 71.7%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1000px;
+}
+
+
+.feature-item h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  margin: 0;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .feature-banner {
+    height: 500px;
+  }
+
+  .feature-item h4 {
+    font-size: 1.5rem;
+  }
+
+  .feature-item p {
+    font-size: 0.95rem;
+  }
+
+  .feature-content-box {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .feature-item {
+    margin-bottom: 20px;
+  }
+}
+
+.banner-head
+{
+  color: #000000;
+}
+.product-card-shop {
+  background-color: #f3f3f3;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 80%;
+}
+
+.product-card-shop img {
+  width: 80%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+
+.product-head
+{
+  color: #000000;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.btn-cart {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+.quantity-box {
+  max-width: 30px;
+}
+
+.quantity
+{
+  color: #000000;
+}
+
+.product-card-section
+{
+  background-color: #e0e4e7;
+}
+
+.shop-content-head  
+{
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shop-content-para
+{
+  color: #4b4b4b;
+  font-weight: 500;
+}
+
+.star {
+  color:#000000;
+  font-size: 1.1rem;
+}
+.review-card {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  object-fit: cover;
+}
+
+.review-head ,.review-point
+{
+  color:#000000
+}
+
+.review-name , .review-para
+{
+  color:#4b4b4b ;
+}
+
+.product-header
+{
+  color: #000000;
+  font-size: 30px;
+}
+
+.product-para
+{
+  color:#4b4b4b ;
+  font-size: 20px;
+}
+
+.view-cart a
+{
+  text-decoration: none;
+}
+
+/* football equipment */
+
+.feature-content-box-football {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-football1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-football {
+  background: url('./images/sports-equipment-5.png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-football
+{
+  color:#fff ;
+}
+
+/* cricket equipment */
+
+.feature-content-box-cricket {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-cricket1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-cricket {
+  background: url('./images/sports equipment (7).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-cricket
+{
+  color:#fff ;
+}
+
+
+/* golf equipment */
+
+.feature-content-box-golf {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-golf1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-golf {
+  background: url('./images/sports equipment (7).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-golf
+{
+  color:#fff ;
+}
+
+/* golf tennis */
+
+.feature-content-box-tennis {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-tennis1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-tennis {
+  background: url('./images/sports equipment (15).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-tennis
+{
+  color:#fff ;
+}
+
+/* badminton badminton */
+
+.feature-content-box-badminton {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-badminton1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-badminton {
+  background: url('./images/sports equipment (11).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-badminton
+{
+  color:#fff ;
+}
+
+/* HOCKEY badminton */
+
+.feature-content-box-hockey {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-hockey1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-hockey {
+  background: url('./images/sports equipment (8).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-hockey
+{
+  color:#fff ;
+}
+
+/* Boxing badminton */
+
+.feature-content-box-boxing {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-boxing1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-boxing {
+  background: url('./images/sports equipment (3).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-boxing
+{
+  color:#fff ;
+}
+
+
+/* basketball badminton */
+
+.feature-content-box-basketball {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-basketball1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-basketball {
+  background: url('./images/sports equipment (10).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-basketball
+{
+  color:#fff ;
+}
+
+/* tabletennis badminton */
+
+.feature-content-box-tabletennis {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-tabletennis1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-tabletennis {
+  background: url('./images/sports equipment (13).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-tabletennis
+{
+  color:#fff ;
+}
+
+/* baseball badminton */
+
+.feature-content-box-baseball {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-baseball1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-baseball {
+  background: url('./images/sports equipment (1).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-baseball
+{
+  color:#fff ;
+}
+
+/* baseball gym */
+
+.feature-content-box-gym {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-gym1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-gym {
+  background: url('./images/sports equipment (2).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-gym
+{
+  color:#fff ;
+}
+
+
+/* chess  */
+
+.feature-content-box-chess {
+  background-color:#000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 30%;
+ left: 83.3%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+}
+
+
+.feature-content-box-chess1 {
+  background-color: #000000;
+  padding: 20px 10px;
+ position: absolute;
+ bottom: 50%;
+ left: 89.1%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+}
+
+.feature-banner-chess {
+  background: url('./images/sports equipment (21).png') no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.banner-head-chess
+{
+  color:#fff ;
+}
+
+/* about */
+.cristianoheader
+{
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.cristianotitile
+{
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold ;
+}
+
+.cristianopara{
+  
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+.line-represent-neymar {
+
+  height: 4px;
+  background: #181717;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  left:600px;
+  
+}
+
+
+.line-top-represent-neymar {
+ 
+  right: 500px;
+  width: 100%;
+ height: 7px;
+}
+
+.neymarheader
+{
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+ 
+}
+
+.neymartitile
+{
+  font-size: 14px;
+  color: #000000;
+ 
+  margin-bottom: 20px;
+  font-weight: bold ;
+}
