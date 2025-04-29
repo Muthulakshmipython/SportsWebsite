@@ -853,10 +853,11 @@ border-radius: 2px;
 
 /* about us page banner */
 .feature-banner-about {
-  background: url('./images/sports-equipment-5.png') no-repeat center center;
+  /* background: url('./images/sports-equipment-5.png') no-repeat center center; */
   background-size: cover;
-  height: 800px;
+
   position: relative;
+ 
 }
 
 .feature-content-box-about {
@@ -864,26 +865,29 @@ border-radius: 2px;
   padding: 20px 10px;
  position: absolute;
  
-  left: 40%;
   transform: translateX(-50%);
-  width: 80%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .feature-content-box-top {
   background-color: #fff;
-  padding: 20px 10px;
+  padding: 10px 10px;
  position: absolute;
-  bottom: -40px;
-  left: 71.7%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 1000px;
+ 
+  
+ 
+  width: 80%;
+  max-width: 800px;
+
+ 
+
 }
 .feature-banner-second {
  
-  background-size: cover;
-  height: 120px;
+  
+
+ width: 100%;
   
   position: relative;
 }
@@ -951,7 +955,19 @@ border-radius: 2px;
 
 /* about us page */
 
+/* equipment page banner responsive */
 
+
+@media (min-width: 1023px) {
+  .banner-equipment {
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    
+  }
+}
+
+/* equipment page banner responsive */
 
 
 .about-section1head
@@ -1700,7 +1716,14 @@ background-color: #81b4ee;
   
 }
 
+.line-represent-about-top {
 
+  height: 4px;
+  background: #181717;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+ 
+  
+}
 .line-top-represent-neymar {
  
   right: 500px;
@@ -1725,3 +1748,261 @@ background-color: #81b4ee;
   margin-bottom: 20px;
   font-weight: bold ;
 }
+
+/* boxing images */
+
+.sport-card-box {
+  position: relative;
+  box-shadow: #333;
+
+
+}
+
+.sport-card-box img {
+  width: 100%;
+  
+  object-fit: cover;
+  display: block;
+  height: 465px;
+  
+}
+
+/* responsive */
+
+@media (max-width:810px) {
+  .sport-card-box img {
+    height: 230px;
+  }
+}
+
+@media (min-width: 820px),(max-width:915) {
+  .sport-card-box img {
+    height: 200px;
+  }
+}
+
+
+
+@media (min-width: 930px),(max-width:1280) {
+  .sport-card-box img {
+    height: 320px;
+  }
+}
+
+@media (min-width: 1290px){
+  .sport-card-box img {
+    height: 460px;
+  }
+}
+
+
+/* mobile responsive about page banner */
+
+
+.feature-overlay-box {
+  bottom: 0px;
+  right: 8px;
+  width: 660px;
+  z-index: 2;
+}
+
+.banner-head-bottom
+{
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .feature-overlay-box {
+    bottom: 0px;
+    right: 10px;
+    left: 10px;
+    width: auto; /* ✅ Auto for mobile */
+    
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner-head-bottom {
+    text-align: center; 
+    color: #000000;
+  }
+}
+
+
+/* quipemnt football page banner */
+
+.feature-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.feature-section img.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.slant-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+ 
+  background-color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.features-right {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+  z-index: 2;
+}
+
+.feature-box-football {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  transform: skew(-15deg);
+  min-width: 200px;
+  text-align: center;
+}
+
+.feature-box-football span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transform: skew(10deg); /* undo skew for text */
+}
+
+@media (max-width: 768px) {
+  .feature-section {
+    height: auto;
+    padding-bottom: 150px;
+  }
+  .features-right {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 20px;
+  }
+}
+
+/* Football Banner start final */
+
+.feature-overlay-box-football {
+  bottom: 100px;
+  right: 8px;
+  width: 550px;
+  z-index: 2;
+  background-color: #000000;
+  color: white;
+}
+
+.banner-head-bottom
+{
+  color: #000000;
+}
+@media (max-width: 767px) {
+  .feature-overlay-box-football {
+    bottom: 20px;
+    right: 10px;
+    left: 10px;
+    width: auto; /* ✅ Auto for mobile */
+    
+  }
+}
+
+
+@media (min-width: 768px),(max-width: 820px) {
+  .feature-overlay-box-football {
+    bottom: 100px;
+    right: 8px;
+    
+    z-index: 2;
+    background-color: #000000;
+    color: white;
+    
+  }
+}
+.slanted-box {
+
+  clip-path: polygon(100% 0, 10% 0, 0 100%, 0 100%, 100% 100%);
+  overflow: hidden;
+
+}
+
+.slanted-box::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+ 
+  clip-path: polygon(100% 0, 10% 0, 0 100%, 0 100%, 100% 100%);
+  z-index: 1;
+}
+.slanted-box .content {
+  text-align: center;
+}
+
+
+/* top */
+
+.feature-overlay-box-football1 {
+  bottom: 250px;
+  right: 8px;
+  width: 450px;
+  z-index: 2;
+  background-color: #000000;
+  color: white;
+ 
+}
+
+.banner-head-bottom
+{
+  color: #000000;
+}
+@media (max-width: 767px) {
+  .feature-overlay-box-football1 {
+    bottom: 350px;
+    right: 10px;
+    left: 10px;
+    width: auto; 
+    
+  }
+}
+
+@media (max-width: 767px) {
+  .feature-overlay-box-football1 {
+    bottom: 350px;
+    right: 10px;
+    
+    
+    
+  }
+}
+
+@media (min-width: 768px),(max-width: 825px) {
+  .feature-overlay-box-football {
+    bottom: 100px;
+    right: 8px;
+    
+    z-index: 2;
+    background-color: #000000;
+    color: white;
+    
+  }
+}
+/* football banner end final */

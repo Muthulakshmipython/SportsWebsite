@@ -56,23 +56,24 @@
   <h1 class="mb-4">WELCOME TO <span>MK</span> SPORT</h1>
 
   <!-- Registration Form -->
-  <div class="form-box" id="registerForm">
-    <h4>Register</h4>
-    <input type="text" class="form-control" id="regName" placeholder="Enter your name" required>
-    <input type="text" class="form-control" id="regUser" placeholder="Enter User ID" required>
-    <input type="password" class="form-control" id="regPass" placeholder="Enter Password" required>
-    <button class="btn btn-custom mt-2" onclick="register()">Register</button>
-    <p class="mt-3">Already have an account? <span class="toggle-link" onclick="showLogin()">Login here</span></p>
-  </div>
+  <!-- Registration Form -->
+<div class="form-box" id="registerForm">
+  <h4>Register</h4>
+  <input type="text" class="form-control" id="regName" placeholder="Enter your name" required>
+  <input type="email" class="form-control" id="regEmail" placeholder="Enter Email ID" required>
+  <input type="password" class="form-control" id="regPass" placeholder="Enter Password" required>
+  <button class="btn btn-custom mt-2" onclick="register()">Register</button>
+  <p class="mt-3">Already have an account? <span class="toggle-link" onclick="showLogin()">Login here</span></p>
+</div>
 
-  <!-- Login Form -->
-  <div class="form-box d-none" id="loginForm">
-    <h4>Login</h4>
-    <input type="text" class="form-control" id="loginUser" placeholder="Enter User ID" required>
-    <input type="password" class="form-control" id="loginPass" placeholder="Enter Password" required>
-    <button class="btn btn-custom mt-2" onclick="login()">Login</button>
-    <p class="mt-3">Don't have an account? <span class="toggle-link" onclick="showRegister()">Register here</span></p>
-  </div>
+<!-- Login Form -->
+<div class="form-box d-none" id="loginForm">
+  <h4>Login</h4>
+  <input type="email" class="form-control" id="loginEmail" placeholder="Enter Email ID" required>
+  <input type="password" class="form-control" id="loginPass" placeholder="Enter Password" required>
+  <button class="btn btn-custom mt-2" onclick="login()">Login</button>
+  <p class="mt-3">Don't have an account? <span class="toggle-link" onclick="showRegister()">Register here</span></p>
+</div>
 </div>
 
 <script>
@@ -86,13 +87,23 @@
     document.getElementById('registerForm').classList.remove('d-none');
   }
 
+  function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+
   function register() {
     const name = document.getElementById('regName').value.trim();
-    const user = document.getElementById('regUser').value.trim();
+    const email = document.getElementById('regEmail').value.trim();
     const pass = document.getElementById('regPass').value.trim();
 
-    if (!name || !user || !pass) {
+    if (!name || !email || !pass) {
       alert('All fields are required!');
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      alert('Please enter a valid Email ID.');
       return;
     }
 
@@ -101,17 +112,22 @@
       return;
     }
 
-    const userData = { name, user, pass };
-    localStorage.setItem(user, JSON.stringify(userData));
+    const userData = { name, email, pass };
+    localStorage.setItem(email, JSON.stringify(userData));
     alert('Registration successful! Please login.');
     showLogin();
   }
 
   function login() {
-    const user = document.getElementById('loginUser').value.trim();
+    const email = document.getElementById('loginEmail').value.trim();
     const pass = document.getElementById('loginPass').value.trim();
 
-    const storedData = localStorage.getItem(user);
+    if (!validateEmail(email)) {
+      alert('Please enter a valid Email ID.');
+      return;
+    }
+
+    const storedData = localStorage.getItem(email);
 
     if (!storedData) {
       alert('User not found!');
@@ -122,13 +138,13 @@
 
     if (parsedData.pass === pass) {
       alert(`Welcome ${parsedData.name}! Redirecting to home...`);
-     
-       window.location.href = 'home.html';
+      window.location.href = 'home.html';
     } else {
       alert('Incorrect password!');
     }
   }
 </script>
+
 
 </body>
 </html>
