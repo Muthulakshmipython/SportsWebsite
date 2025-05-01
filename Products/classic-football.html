@@ -3,115 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Website</title>
+  <link rel="icon" style="width: 200px;" type="image/png" href="../images/fav-icon.png" >
+
+  <title> Classic Football</title>
+
   <!-- Bootstrap CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../product-card.css" />
+  <link rel="stylesheet" href="../classic-football.css" />
+
+
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./home.html"><img src="../images/sports equipment (146).png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Navigation Bar -->
-  <header class="navbar navbar-expand-lg navbar-light bg-orange">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../images/sports equipment (146).png" alt="Logo" style= "width:100px";>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active " href="./home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./equipment.html">Equipments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link no-hover-bg" >Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+      </ul>
     </div>
-  </header>
-
-  <!-- Banner Section -->
-  <!-- <section class="banner d-flex align-items-center justify-content-center text-center" style="background-image: url('./images/sports equipment (12).png'); background-size: cover; background-position: center; height: 80vh;">
-    <div class="container">
-      <h1 class="display-4">END OF SEASON SALE</h1>
-      <p class="para">SAVE UPTO 60% ON BEST SELLING BATS, NETS, AND BALLS FOR SPECIFIC SPORTS</p>
-      <button class="btn btn-light border">Shop Sale</button>
-    </div>
-  </section>  -->
-
-<!-- product card -->
+  </div>
+</nav>
 
 <!-- features -->
-<div class="feature-banner">
-    <div class="container">
-      <div class="row feature-content-box text-center">
-        <div class="col-md-4 col-12 feature-item">
-          <h4 class="banner-head">680</h4>
-          <p>Award Winning</p>
-        </div>
-        <div class="col-md-4 col-12 feature-item">
-          <h4 class="banner-head">8K+</h4>
-          <p>Happy Customers</p>
-        </div>
-        <div class="col-md-4 col-12 feature-item">
-          <h4 class="banner-head">500+</h4>
-          <p>Equipments Ready</p>
-          
-        </div>
-        <div class="bottom-line mx-auto my-4"></div>
+<div class="position-relative ">
+  <img src="../images/sports equipment (12).png" alt="Banner" class="img-fluid w-100 about-feature-banner-top" style="height: 700px; object-fit: cover;">
+
+  <!-- Feature Box on Bottom Right -->
+  <div class="feature-overlay-box position-absolute">
+    <div class="row g-3 text-center justify-content-center  bg-white  p-3">
+      <div class="col-12 col-sm-4 col-md-3">
+        <h2 class="fw-bold mb-1 banner-head">680</h2>
+        <p class="mb-0 small banner-head">Award Winning</p>
       </div>
-      
+      <div class="col-12 col-sm-4 col-md-3">
+        <h2 class="fw-bold mb-1 banner-head">8K+</h2>
+        <p class="mb-0 small banner-head">Happy Customers</p>
+      </div>
+      <div class="col-12 col-sm-4 col-md-3">
+        <h2 class="fw-bold mb-1 banner-head">500+</h2>
+        <p class="mb-0 small banner-head">Equipments Ready</p>
+      </div>
     </div>
-    
   </div>
+</div>
+<div class="line-represent-about-top line-top-represent-neymar"></div>
  
  <!-- features -->
+ <div class="container my-5 classic-banner mb-5">
+  <div class="row align-items-start g-5">
+    <!-- Image Section -->
+    <div class="col-md-6">
+      <img src="../images/sports equipment (107).png" alt="Classic Football" class="img-fluid shadow">
+    </div>
 
-<div class=" product container py-5 product-card-section mt-5" data-id="football-001" data-name="Classic Football" data-price="75" data-image="./sports equipment (107).png">
-    <div class="row g-4 align-items-start">
-      <!-- Product Image -->
-      <div class="col-12 col-md-6">
-        <img src="../images/sports equipment (107).png" alt="Classic Football" class="product-img shadow-sm" />
+    <!-- Details Section -->
+    <div class="col-md-6 ">
+      <h2 class="banner-head ">Classic Football</h2>
+      <div class="mb-2 text-muted">⭐ 4.2 — 54 Reviews</div>
+
+      <div class="mb-3 banner-head">
+        <span class="instock">IN STOCK</span>
+        ₹75.00
+        <div class="free-shipping">● Free Shipping</div>
       </div>
-  
-      <!-- Product Details -->
-      <div class="col-12 col-md-6">
-        <h3 class="mb-1 product-head ">Classic Football</h3>
-        <p class="rating">⭐ 4.2 — 54 Reviews</p>
-        <span class="badge text-bg-light border mb-2">IN STOCK</span>
-        <p class="price mt-2">₹75.00</p>
-        <p class="text-success">🟢 Free Shipping</p>
-  
-        <!-- Quantity Selector -->
-        <div class="d-flex align-items-center mb-3">
-          <label class="me-2 mb-0 quantity">Quantity:</label>
-          <div class="input-group w-50">
-            <button class="btn btn-outline-secondary" type="button" onclick="changeQty(-1)">−</button>
-            <input type="number" id="qty" class="form-control text-center" value="1" min="1">
-            <button class="btn btn-outline-secondary" type="button" onclick="changeQty(1)">+</button>
-          </div>
+
+      <div class="mb-3">
+        <label for="qty" class="form-label fw-bold banner-head">Quantity</label>
+        <div class="input-group qty-controls" style="max-width: 160px;">
+          <button class="btn btn-outline-dark" type="button" onclick="decrement()">−</button>
+          <input type="text" id="qty" class="form-control text-center" value="1" readonly>
+          <button class="btn btn-outline-dark" type="button" onclick="increment()">+</button>
         </div>
-  
-        <!-- Buttons -->
-        <div class="d-flex gap-2">
-            <button id="add-to-cart-btn" class="btn btn-dark mb-2">Add To Cart</button><br>
-            <a href="/cart.html" class="text-muted view-cart">View Cart</a>
-        </div>
-  
-        <p class="mt-3 text-muted small">— Free Shipping On Orders $100+</p>
+      </div>
+
+      <div class="d-flex gap-3 mt-4">
+        <button class="btn btn-dark">Add to Cart</button>
+        <button class="btn wishlist">♡</button>
+      </div>
+
+      <div class="note mt-3">
+        — Free Shipping On Orders ₹100+
       </div>
     </div>
   </div>
+</div>
 
   <!-- product card end -->
 
@@ -205,59 +202,62 @@
 
  <!-- products -->
 
- <div class="container mt-5">
-   <h1 class="product-header"> You might also like</h1>
-   <p class="product-para">Similar Products</p>
-    <div class="row">
-  
-      <!-- Product 1 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="../images/sports equipment (130).png" alt="Classic football">
-          <p class="mt-2 mb-1 text-success">🟢 Classic football</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
+ <div class="container mt-5 mb-5">
+  <h2 class="section-title"> You might also like</h2>
+  <h2 class="ft-light">SIMILAR PRODUCTS</h2>
+
+</div>
+
+  <div class="container">
+  <div class="product-row">
+
+   
+ 
+
+
+      <div class="product mt-5">
+        <img src="../images/sports equipment (52).png" alt="Football">
+        <div class="details">
+          <div class="left-info">
+            <p class="green-dot">Football Shoe With Ball Combo</p>
+            <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+            <p class="free">Free shipping</p>
           </div>
-          
-          <p class="free-shipping">Free shipping</p>
-          <button class="btn btn-buy me-2">Explore Now</button>
-          
+          <div class="right-buttons">
+            <a href="../football-equipment.html"><button class="buy-btn">Explore Now</button></a>
+          </div>
         </div>
       </div>
   
-      <!-- Product 2 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="../images/sports equipment (103).png" alt="Football net">
-          <p class="mt-2 mb-1 text-success">🟢 Football net</p> 
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
+      <div class="product mt-5">
+        <img src="../images/sports equipment (27).png" alt="Football Net">
+        <div class="details">
+          <div class="left-info">
+            <p class="green-dot">Classic Football Full Combo Set </p>
+            <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+            <p class="free">Free shipping</p>
           </div>
-          <p class="free-shipping">Free shipping</p>
-          <button class="btn btn-buy me-2">Explore Now</button>
-       
+          <div class="right-buttons">
+            <a href="../football-equipment.html"><button class="buy-btn">Explore Now</button></a>
+          </div>
         </div>
       </div>
   
-      <!-- Product 3 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="../images/sports equipment (112).png" alt="Classic Sport Football shoes">
-          <p class="mt-2 mb-1 text-success">🟢 Classic Sport Football shoes</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
+      <div class="product mt-5">
+        <img src="../images/sports equipment (56).png" alt="Football Shoes">
+        <div class="details">
+          <div class="left-info">
+            <p class="green-dot">Classic Black and White Football</p>
+            <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+            <p class="free">Free shipping</p>
           </div>
-          <p class="free-shipping">Free shipping</p>
-          <button class="btn btn-buy me-2">Explore Now</button>
-         
+          <div class="right-buttons">
+            <a href="../football-equipment.html"> <button class="buy-btn">Explore Now</button></a>
+          </div>
         </div>
       </div>
-  
-    </div>
-  </div>
+      </div>
+      </div>
   <!-- products end -->
    <!-- last section -->
 <div class=" lastsection pt-5 pb-3 mt-5 ">
@@ -311,66 +311,66 @@
 
   
     <!-- Bootstrap 5 Footer -->
-    <footer class="footer text-light pt-5 pb-3">
-      <div class="container">
-        <div class="row">
-          <!-- Equipment -->
-          <div class="col-md-4 mb-4">
-            <h5 class="fw-bold mb-3">Equipment</h5>
-            <p class="footerpara">
-              MK Sport, we specialize in designing and manufacturing sport equipment while creating bespoke training facilities.<br>
-              Partnering with coaches, ground owners, and athletes, we enhance training spaces to elevate performance.
-            </p>
-          </div>
-    
-          <!-- Company -->
-          <div class="col-md-2 mb-4">
-            <h5 class="fw-bold mb-3">Company</h5>
-            <ul class="list-unstyled" style="font-size: 14px;">
-              <li><a href="#" class="text-light text-decoration-none">About us</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
-              <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
-            </ul>
-          </div>
-    
-          <!-- Need Help -->
-          <div class="col-md-3 mb-4">
-            <h5 class="fw-bold mb-3">Need Help?</h5>
-            <ul class="list-unstyled" style="font-size: 14px;">
-              <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Shipping Services</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Payment options</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Returns & Exchanges</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Unsubscribe</a></li>
-            </ul>
-          </div>
-    
-          <!-- Follow Us -->
-          <div class="col-md-3 mb-4">
-            <h5 class="fw-bold mb-3">Follow us</h5>
-            <ul class="list-unstyled" style="font-size: 14px;">
-              <li><a href="#" class="text-light text-decoration-none">Instagram</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Facebook</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Twitter</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Snapchat</a></li>
-              <li><a href="#" class="text-light text-decoration-none">Pinterest</a></li>
-            </ul>
-          </div>
-        </div>
-    
-        <hr class="border-secondary">
-    
-        <div class="text-center text-light" style="font-size: 14px;">
-          Copyright @ Muthulakshmi2025. All Rights Reserved.
-        </div>
+<footer class="footer  pt-5 pb-3">
+  <div class="container footer-content" >
+    <div class="row" >
+      <!-- Equipment -->
+      <div class="col-md-4 mb-4">
+        <h5 class=" mb-3">Equipment</h5>
+        <p class="footerpara">
+          MK Sport, we specialize in designing<br> and manufacturing sport equipment<br> while creating bespoke training<br> facilities.<br>
+          Partnering with coaches, ground<br> owners, and athletes, we enhance<br> training spaces to elevate<br> performance.
+        </p>
       </div>
-    </footer>
-    
-    <!-- Include Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <script src="../javascript.js"></script>
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-    </html>
+      <!-- Company -->
+      <div class="col-md-2 mb-4 ">
+        <h5 class="footerhead  mb-3">Company </h5>
+        <ul class="list-unstyled " style="font-size: 14px; " >
+          <li class="footerlist text-decoration-none">About us </li>
+          <li class="footerlist text-decoration-none">Blog</a></li>
+          <li class="footerlist text-decoration-none">FAQs</a></li>
+        </ul>
+      </div>
+
+      <!-- Need Help -->
+      <div class="col-md-3 mb-4">
+        <h5 class="footerhead  mb-3">Need Help?</h5>
+        <ul class="list-unstyled " style="font-size: 14px;">
+          <li class="footerlist text-decoration-none">Contact Us</a></li>
+          <li class="footerlist text-decoration-none">Shipping Services</a></li>
+          <li class="footerlist text-decoration-none">Payment Options</a></li>
+          <li class="footerlist text-decoration-none">Return & Exchanges</a></li>
+          <li class="footerlist text-decoration-none">Unsubscribe</a></li>
+        </ul>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="col-md-3 mb-4">
+        <h5 class=" footerhead  mb-3">Follow us</h5>
+        <ul class="list-unstyled" style="font-size: 14px;">
+          <li class=" footerlist text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li class="footerlist text-decoration-none"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li class="footerlist text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li class=" footerlist text-decoration-none"><i class="fab fa-snapchat-ghost"></i> Snapchat</a></li>
+          <li class="footerlist text-decoration-none"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+        
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer-line mx-auto my-4"></div>
+  <div class="footertext text-center" style="height: 50px;">
+    Copyright @ Mukesh2025. All Rights Reserved.
+  </div>
+</footer>
+
+<!-- Include Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="../javascript.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>
