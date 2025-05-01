@@ -1941,17 +1941,18 @@ background-color: #81b4ee;
   overflow: hidden;
 
 }
-
 .slanted-box::before {
   content: "";
   position: absolute;
-  top: -2px;
-  left: -2px;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
+  top: 0; 
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  clip-path: polygon(100% 0, 10% 0, 0% 100%, 0 100%, 30% 0);
  
-  clip-path: polygon(100% 0, 10% 0, 0 100%, 0 100%, 100% 100%);
-  z-index: 1;
+  box-sizing: border-box;
 }
 .slanted-box .content {
   text-align: center;

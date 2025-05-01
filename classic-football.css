@@ -1,0 +1,42 @@
+.instock {
+    display: inline-block;
+    padding: 3px 12px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .free-shipping {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .qty-controls input {
+    width: 60px;
+    text-align: center;
+  }
+  .note {
+    margin-top: 15px;
+    color: #555;
+    font-size: 14px;
+  }
+  .wishlist {
+    border: 1px solid #000;
+    background: white;
+    color: black;
+  }
+  .wishlist:hover {
+    background: #eee;
+  }
+
+  .classic-banner
+  {
+    background-color: #f3ebeb;
+    margin-bottom: 20px;
+  }
+
+  .ft-light
+  {
+    color: #cfc9c9;
+  }

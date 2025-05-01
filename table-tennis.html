@@ -9,6 +9,8 @@
   <!-- Bootstrap CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="product-card.css" />
+
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap" rel="stylesheet">
 
 </head>
@@ -25,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="/home.html">Home</a>
+          <a class="nav-link active" href="./home.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./equipment.html">Equipments</a>
@@ -81,180 +83,157 @@
     </div>
   </div>
 
-
-<!-- product list -->
-<div class="container mt-5">
-    <h1 class=" mb-5 fw-bold productlist-head">Table Tennis Equipments</h1>
-    <div class="row">
-  
-      <!-- Product 1 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (47).png" alt="Classic football">
-          <p class="mt-2 mb-1 text-black">🟢 Table Tennis Bat</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
-          </div>
-          
-          <p class="free-shipping">Free shipping</p>
-          <div class="d-flex justify-content-center gap-2 mt-3">
-            <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-            <!-- <button class="btn btn-primary">Add To Cart</button> -->
-          </div>
-        </div>
-      </div>
-  
-      <!-- Product 2 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (112).png" alt="Football net">
-          <p class="mt-2 mb-1 text-black">🟢 Classic Dual Color Table Tennis Bat</p> 
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
-          </div>
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
-        </div>
-      </div>
-  
-      <!-- Product 3 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (69).png" alt="Classic Sport Football shoes">
-          <p class="mt-2 mb-1 text-black">🟢 Long Table for Table Tennis </p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
-          </div>
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
-        </div>
-      </div>
-  
-    </div>
+  <div class="container mt-5 mb-5">
+    <h2 class="section-title"> Table Tennis Equipments</h2>
   </div>
-   <!-- product list end -->
+  <div class="container">
+    <div class="product-row">
+    <div class="product">
+          <img src="./images/sports equipment (47).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Table Tennis Bat</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
 
-   <!-- product list -->
-<div class="container mt-5">
-   
-    <div class="row">
-  
-      <!-- Product 1 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (58).png" alt="Classic football">
-          <p class="mt-2 mb-1 text-black">🟢 Table Tennis Luggage Carry Bag</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
+        <div class="product">
+          <img src="./images/sports equipment (112).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Classic Dual Color Table Tennis Bat</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
           </div>
-          
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
         </div>
-      </div>
-  
-      <!-- Product 2 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (40).png" alt="Football net">
-          <p class="mt-2 mb-1 text-black">🟢 Premium Table Tennis Net</p> 
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
+     
+        <div class="product">
+          <img src="./images/sports equipment (69).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Long Table for Table Tennis</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
           </div>
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
         </div>
-      </div>
-  
-      <!-- Product 3 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (118).png" alt="Classic Sport Football shoes">
-          <p class="mt-2 mb-1 text-black">🟢 Classic Mate Black Bat</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
+     
+        <div class="product mt-5">
+          <img src="./images/sports equipment (58).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Table Tennis Luggage Carry Bag</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
           </div>
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
         </div>
-      </div>
+
+        <div class="product mt-5">
+          <img src="./images/sports equipment (40).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Premium Table Tennis Net</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product mt-5">
+          <img src="./images/sports equipment (118).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Classic Mate Black Bat</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product mt-5">
+          <img src="./images/sports equipment (129).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Table Tennis Bat with Multiple Balls</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product mt-5">
+          <img src="./images/sports equipment (84).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Sqaure Shaped Table Tennis Bat</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
   
-    </div>
+        <div class="product mt-5">
+          <img src="./images/sports equipment (117).png" alt="Football">
+          <div class="details">
+            <div class="left-info">
+              <p class="green-dot">Table Tennis Balls</p>
+              <p><span class="instock">IN STOCK</span> <span class="price">₹35.00</span></p>
+              <p class="free">Free shipping</p>
+            </div>
+            <div class="right-buttons">
+              <a href="./Products/classic-football.html"> <button class="buy-btn">Buy Now</button></a>
+              <button class="cart-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
   </div>
-   <!-- product list end -->
-
-   <!-- product list -->
-<div class="container mt-5">
-   
-    <div class="row">
-  
-      <!-- Product 1 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (129).png" alt="Classic football">
-          <p class="mt-2 mb-1 text-black">🟢 Table Tennis Bat with Multiple Balls</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
-          </div>
-          
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
-        </div>
-      </div>
-  
-      <!-- Product 2 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (84).png" alt="Football net">
-          <p class="mt-2 mb-1 text-black">🟢 Sqaure Shaped Table Tennis Bat</p> 
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
-          </div>
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
-        </div>
-      </div>
-  
-      <!-- Product 3 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="./images/sports equipment (117).png" alt="Classic Sport Football shoes">
-          <p class="mt-2 mb-1 text-black">🟢 Table Tennis Balls</p>
-          <div class="d-flex justify-content-center align-items-center mb-2">
-            <button class="btn btn-outline-dark btn-sm me-2">IN STOCK</button>
-            <span class="price-tag">₹35.00</span>
-          </div>
-          <p class="free-shipping">Free shipping</p>
-          <a href="./Products/classic-football.html"> <button class="btn btn-dark">Buy Now</button></a>
-          <!-- <button class="btn btn-primary">Add To Cart</button> -->
-        </div>
-      </div>
+    </div>
       <div class="text-end mt-3">
         <div style="display: inline-block; padding: 8px; border-radius: 8px; ">
           <img src="./images/logo-footer1.png" alt="Logo" style="width: 150px; ">
         </div>
       </div>
       <div class="bottom-line mx-auto my-4  "></div>
-    </div>
-  </div>
+   
    <!-- product list end -->
     <!-- last section -->
-<div class=" lastsection pt-5 pb-3 ">
+<div class=" lastsection pt-5 pb-3 mt-5 ">
     <section class="container my-5 ">
       <div class="row align-items-center">
         

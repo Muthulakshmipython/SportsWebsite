@@ -100,3 +100,15 @@ const currentPage = location.pathname.split("/").pop();
   });
 
 
+  function increment() {
+    const qty = document.getElementById('qty');
+    qty.value = parseInt(qty.value) + 1;
+  }
+  function decrement() {
+    const qty = document.getElementById('qty');
+    if (parseInt(qty.value) > 1) {
+      qty.value = parseInt(qty.value) - 1;
+    }
+  }
+
+
